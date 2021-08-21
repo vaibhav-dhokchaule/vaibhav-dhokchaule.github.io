@@ -1,0 +1,34 @@
+
+#body-header{
+    opacity: 10;
+    padding-top: 1.2rem;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li{
+ display: inline-block;
+ margin: 0px 8px 8px 0px;
+ font-weight: 100;
+ font-size: 0.9rem;
+}
+
+.horizontal-list li a{
+color: white;
+text-decoration: none;
+}
+
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+    color:lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center{
+    text-align: center;
+}
